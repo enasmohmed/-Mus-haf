@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: block;
+  background: none;
+  border: 2px solid;    
+}
+
+.quran-cover{
+    position: absolute;
+    left: 18%;
+    width: 70%;
+    height: 90%;
+    border: 10px solid #303027;
+    background: #EFE752;
+}
+
+.green-cover{
+    position: absolute;
+    top: 7.5%;
+    left: 10%;
+    width: 80%;
+    height: 85%;
+    border: 10px solid #303027;
+    background: #840f07;
+}
+
+.yellow-box{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 10px solid #303027;
+    background: #EFE752;
+}
+
+.oval-top{
+    position: absolute;
+    top: 5%;
+    width: 40%;
+    height: 30%;
+    left: 30%;
+    border: 10px solid #303027;
+    border-radius: 50%;
+    background: #EFE752;
+}
+
+.oval-left{
+    position: absolute;
+    top: 33%;
+    width: 40%;
+    height: 30%;
+    left: 5%;
+    border: 10px solid #303027;
+    border-radius: 50%;
+    background: #EFE752;
+}
+
+.oval-right{
+    position: absolute;
+    top: 33%;
+    width: 40%;
+    height: 30%;
+    right: 5%;
+    border: 10px solid #303027;
+    border-radius: 50%;
+    background: #EFE752;
+}
+
+.oval-bottom{
+    position: absolute;
+    bottom: 5%;
+    width:  40%;
+    height: 30%;
+    left:   30%;
+    border: 10px solid #303027;
+    border-radius: 50%;
+    background: #EFE752;
+}
+
+.decoration-box-copy{
+    position: absolute;
+    top:     calc(15% + 10px);
+    left:    calc(15% + 10px);
+    width:   calc(70% - 20px);
+    height:  calc(70% - 20px);
+    background: #EFE752;
+}
+
+.center-oval{
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    height: 30%;
+    left: 30%;
+    border: 10px solid #303027;
+    border-radius: 50%;
+    background: #840f07;
+}
+
+.center-oval img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;    
+}
+.spine{
+    position: absolute;
+    left: 8%;
+    width: 10%;
+    height: 95%;
+    border-top-left-radius: 50px;
+    border: 10px solid #303027;
+    border-right: none;
+    background: #840f07;
+}
+
+.pages{
+    position: absolute;
+    left: 8%;
+    bottom: 0;
+    width: 80%;
+    height: 12%;
+    border: 10px solid #303027;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 50px;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.page-line{
+    position: absolute;
+    width: 70%;
+    left: 10%;
+    top: 47.5%;
+    height: 20%;
+    border-radius: 50px;
+    background: #303027;
+}
+
+.page-curl{
+    position: absolute;
+    right: -12%;
+    top: -15%;
+    width: 20%;
+    height: 140%;
+    border: 10px solid #303027;
+    border-radius: 50px;
+}
